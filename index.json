@@ -1,0 +1,36 @@
+{
+    "type":"MCU",
+    "name":"LPC4370",
+    "title": "LPC4370",
+    "description":"Cortex-M4 MCU",
+    "version":"1.0.0",
+    "Core": {
+        "num": 1,
+        "type":"RISC-V",
+        "Freq": 204,
+        "DMIPS": 211,
+        "CoreMark": 60
+    },
+    "manufacturer": {
+        "vendor":"NXP",
+        "homepage": "https://www.nxp.com.cn/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/LPC4370.git"
+    },
+    "series":["LPC4370"],
+    "package":["LBGA256","TFBGA100"],
+    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
+    "EMC": {
+        "EFT": 2000,
+        "CDM": 1000,
+        "HBM": 4000
+    },
+    "keywords": [
+        "Cortex-M4",
+        "Cortex-M0",
+        "DAC","ADC","CAN","I2C","RTC","SPI",
+        "3.6V","1.7V"
+    ]
+}
